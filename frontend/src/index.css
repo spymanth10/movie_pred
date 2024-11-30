@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #141414;
+  color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Netflix-inspired styles */
+.MuiButton-containedPrimary {
+  background-color: #e50914 !important;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #f40612 !important;
+}
+
+.MuiFilledInput-root {
+  background-color: #333333 !important;
+}
+
+.MuiFilledInput-root:hover {
+  background-color: #454545 !important;
+}
+
+.MuiFilledInput-input {
+  color: #ffffff !important;
+}
+
+.MuiInputLabel-filled {
+  color: #8c8c8c !important;
+}
+
+.MuiInputLabel-filled.Mui-focused {
+  color: #ffffff !important;
+}
