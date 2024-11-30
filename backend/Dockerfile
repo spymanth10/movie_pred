@@ -14,11 +14,7 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /backend
 
 # Copy application code and model files into the container
-COPY server.py .
-COPY xgb_model.pkl .
-COPY word2vec_genres.model .
-COPY label_encoder.pkl .
-COPY requirements.txt .
+COPY . .
 
 # Install dependencies from requirements.txt
 RUN pip3 install --no-cache-dir -r requirements.txt

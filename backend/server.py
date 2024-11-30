@@ -13,7 +13,7 @@ CORS(app)
 try:
     xgb_model = joblib.load('xgb_model.pkl')
     word2vec = gensim.models.Word2Vec.load('word2vec_genres.model')
-    label_encoder = joblib.load("label_encoders.pkl")
+    label_encoder = joblib.load('label_encoders.pkl')
     companies_encoder = label_encoder['companies_encoder']
     credits_encoder = label_encoder['credits_encoder']
 except Exception as e:
